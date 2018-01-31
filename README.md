@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/vgis54solhygre0n?svg=true)](https://ci.appveyor.com/project/vitiral/path-abs)
 [![Docs](https://docs.rs/taken/badge.svg)](https://docs.rs/taken)
 
-**See the [library docs]https://docs.rs/taken) for more information**
+**See the [library docs](https://docs.rs/taken) for more information**
 
 # LICENSE
 The source code in this repository is Licensed under either of
