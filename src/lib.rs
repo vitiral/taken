@@ -1,4 +1,4 @@
-//! taken: macros for taking ownership, _starring Liam Neeson_
+//! Macros for taking ownership, _starring Liam Neeson_
 //!
 //! This module exports the `take!` macro which allows you to express ownership on one or more
 //! variables.
@@ -6,11 +6,23 @@
 //! All of them expand into some sort of `let v = v;`. See the [`take!`](macro.take.html)
 //! for more details and possible use cases.
 //!
+//! ### Special Thanks
+//! This crate was created through the community efforts at [/r/rust]. Special thanks to:
+//!
+//! - [/u/CUViper] for poiting out the tradeoffs of this strategy.
+//! - [/u/jasonkdark] for the initial implementation.
+//!
 //! > _[In the voice of Liam Neeson]_
 //! > _If you let my object go now, that'll be the end of it. But if you don't, I will look for you,
 //! > I will find you, and I will kill you._
 //!
 //! Whoa Liam Neeson, you'll get your object back, I swear!
+//!
+//! [/r/rust]: https://www.reddit.com/r/rust/comments/7u29r3/help_me_make_the_own_macro_and_understand_its_use/
+//! [/u/CUViper]: https://www.reddit.com/r/rust/comments/7u29r3/help_me_make_the_own_macro_and_understand_its_use/dthcvlp/
+//! [/u/jasonkdark]: https://www.reddit.com/r/rust/comments/7u29r3/help_me_make_the_own_macro_and_understand_its_use/dthfcnt/
+
+
 
 /// Take ownership of specific variables.
 ///
