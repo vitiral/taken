@@ -1,6 +1,6 @@
 [package]
 name = "taken"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Garrett Berg <vitiral@gmail.com>"]
 description = "Macros for taking ownership, _staring Liam Neeson_"
 documentation = "https://docs.rs/taken"
